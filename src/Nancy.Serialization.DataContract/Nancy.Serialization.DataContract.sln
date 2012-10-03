@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nancy.Serialization.DataContract", "Nancy.Serialization.DataContract\Nancy.Serialization.DataContract.csproj", "{23C35C2A-5113-4F3F-9235-393D0E9CE284}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nancy", "..\..\dependencies\Nancy\src\Nancy\Nancy.csproj", "{34576216-0DCA-4B0F-A0DC-9075E75A676F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nancy.Serialization.DataContract.Tests", "Nancy.Serialization.DataContract.Tests\Nancy.Serialization.DataContract.Tests.csproj", "{27E9C155-1627-4912-A26D-818131C983D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		MonoDebug|Any CPU = MonoDebug|Any CPU
+		MonoRelease|Any CPU = MonoRelease|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23C35C2A-5113-4F3F-9235-393D0E9CE284}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23C35C2A-5113-4F3F-9235-393D0E9CE284}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23C35C2A-5113-4F3F-9235-393D0E9CE284}.MonoDebug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23C35C2A-5113-4F3F-9235-393D0E9CE284}.MonoDebug|Any CPU.Build.0 = Debug|Any CPU
+		{23C35C2A-5113-4F3F-9235-393D0E9CE284}.MonoRelease|Any CPU.ActiveCfg = Release|Any CPU
+		{23C35C2A-5113-4F3F-9235-393D0E9CE284}.MonoRelease|Any CPU.Build.0 = Release|Any CPU
+		{23C35C2A-5113-4F3F-9235-393D0E9CE284}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23C35C2A-5113-4F3F-9235-393D0E9CE284}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34576216-0DCA-4B0F-A0DC-9075E75A676F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34576216-0DCA-4B0F-A0DC-9075E75A676F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34576216-0DCA-4B0F-A0DC-9075E75A676F}.MonoDebug|Any CPU.ActiveCfg = MonoDebug|Any CPU
+		{34576216-0DCA-4B0F-A0DC-9075E75A676F}.MonoDebug|Any CPU.Build.0 = MonoDebug|Any CPU
+		{34576216-0DCA-4B0F-A0DC-9075E75A676F}.MonoRelease|Any CPU.ActiveCfg = MonoRelease|Any CPU
+		{34576216-0DCA-4B0F-A0DC-9075E75A676F}.MonoRelease|Any CPU.Build.0 = MonoRelease|Any CPU
+		{34576216-0DCA-4B0F-A0DC-9075E75A676F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34576216-0DCA-4B0F-A0DC-9075E75A676F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27E9C155-1627-4912-A26D-818131C983D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27E9C155-1627-4912-A26D-818131C983D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27E9C155-1627-4912-A26D-818131C983D7}.MonoDebug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27E9C155-1627-4912-A26D-818131C983D7}.MonoDebug|Any CPU.Build.0 = Debug|Any CPU
+		{27E9C155-1627-4912-A26D-818131C983D7}.MonoRelease|Any CPU.ActiveCfg = Release|Any CPU
+		{27E9C155-1627-4912-A26D-818131C983D7}.MonoRelease|Any CPU.Build.0 = Release|Any CPU
+		{27E9C155-1627-4912-A26D-818131C983D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27E9C155-1627-4912-A26D-818131C983D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
