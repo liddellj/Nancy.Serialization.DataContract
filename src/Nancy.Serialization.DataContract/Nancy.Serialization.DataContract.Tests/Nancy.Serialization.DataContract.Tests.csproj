@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Fakes\DataContractModel.cs" />
+    <Compile Include="JsonDataContractBodyDeserializerFixture.cs" />
     <Compile Include="JsonDataContractSerializerFixture.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

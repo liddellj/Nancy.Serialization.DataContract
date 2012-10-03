@@ -14,7 +14,7 @@
         /// <returns>True if supported, false otherwise</returns>
         public bool CanSerialize(string contentType)
         {
-            return IsJsonType(contentType);
+            return Helpers.IsJsonType(contentType);
         }
 
         /// <summary>
@@ -35,34 +35,7 @@
         /// <returns>Serialised object</returns>
         public void Serialize<TModel>(string contentType, TModel model, Stream outputStream)
         {
-            var serializer = new DataContractJsonSerializer(model.GetType());
-
-            serializer.WriteObject(outputStream, model);
-        }
-
-        /// <summary>
-        /// Attempts to detect if the content type is JSON.
-        /// Supports:
-        ///   application/json
-        ///   text/json
-        ///   application/vnd[something]+json
-        /// Matches are case insentitive to try and be as "accepting" as possible.
-        /// </summary>
-        /// <param name="contentType">Request content type</param>
-        /// <returns>True if content type is JSON, false otherwise</returns>
-        private static bool IsJsonType(string contentType)
-        {
-            if (string.IsNullOrEmpty(contentType))
-            {
-                return false;
-            }
-
-            var contentMimeType = contentType.Split(';')[0];
-
-            return contentMimeType.Equals("application/json", StringComparison.InvariantCultureIgnoreCase) ||
-                   contentMimeType.Equals("text/json", StringComparison.InvariantCultureIgnoreCase) ||
-                  (contentMimeType.StartsWith("application/vnd", StringComparison.InvariantCultureIgnoreCase) &&
-                   contentMimeType.EndsWith("+json", StringComparison.InvariantCultureIgnoreCase));
+            new DataContractJsonSerializer(model.GetType()).WriteObject(outputStream, model);
         }
     }
 }
