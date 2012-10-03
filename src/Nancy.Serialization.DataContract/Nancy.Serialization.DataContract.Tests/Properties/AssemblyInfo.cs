@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("Nancy.Serialization.DataContract.Tests")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Linn Products Ltd")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("Nancy.Serialization.DataContract.Tests")]
-[assembly: AssemblyCopyright("Copyright © Linn Products Ltd 2012")]
+[assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
